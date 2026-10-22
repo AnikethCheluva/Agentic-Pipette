@@ -1,0 +1,21 @@
+.pio/
+.vscode/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.DS_Store
+*.log
+.env
+.env.*
+backups/
+compile_commands.json
+# Unused headers from the older PWM/DIR prototype, retained locally.
+ArduinoIDE/AgenticPipette/Config.h
+ArduinoIDE/AgenticPipette/MotorDriver.h
+
+.cache/
+.clangd

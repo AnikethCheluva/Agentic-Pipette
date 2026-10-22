@@ -1,0 +1,10 @@
+{
+  "steps": [
+    {"op": "servo", "angle": 90, "settle_ms": 500},
+    {"op": "actuator", "direction": "forward", "duration_ms": 500},
+    {"op": "wait", "duration_ms": 250},
+    {"op": "actuator", "direction": "reverse", "duration_ms": 500},
+    {"op": "servo", "angle": 60, "settle_ms": 500},
+    {"op": "stop"}
+  ]
+}
